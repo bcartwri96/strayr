@@ -1,3 +1,17 @@
+# strayr (development version)
+* `create read_correspondence_tbl()` reads correspondence tables from
+`absmapsdata` similarly to `read_absmap()`
+* updated `anzsco2006` to include leading zeros in codes (see ). This is a backwards incompatible change that may cause issues (not enough for a major version progression)
+
+# strayr 0.2.2
+* `anzsco2022` updated to reflect changes made by the ABS
+
+# strayr 0.2.1
+* adds `anzsco2022` dataset
+
+# strayr 0.2.0
+* adds `school_terms` dataset
+
 # strayr 0.1.7
 * `state_name_au` and `state_abb_au` added
 * aus_seasons() added by @carlosyanez. Thank you!
